@@ -1,0 +1,100 @@
+*
+{
+    margin: 1px;
+    padding: 0%;
+    font-family: 'Varela Round', sans-serif;
+}
+body
+{
+    border: 2px solid black;
+    background-color: rgba(11,13,48,255);
+    color: white;
+}
+datalist {
+    display: flex;
+    justify-content: center;
+    color: red;
+    width: 0;
+    font-size: 15px;
+  }
+  #keys {
+    width: 65vw;
+    cursor: pointer;
+    color: white;
+  }
+  .setting,#submit
+  {
+      display: flex;
+      justify-content: center;
+  }
+  #setting
+  {
+      margin: 30px;
+    border-style: double;
+    border-style: double;
+    background-color: rgba(30,35,60,255);
+  }
+  nav{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    padding: 21px;
+    font-stretch: condensed;
+}
+h1
+{
+display: flex;
+justify-content: center;
+}
+#password1,.copy-text
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#range1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border-style: double;
+    background-color: rgba(30,35,60,255);
+}
+#password2
+{
+    display: flex;
+    justify-content: center;
+    
+    cursor: pointer;
+}
+h3
+{
+    display: flex;
+    justify-content: center;
+}
+#buttonmain
+{
+    padding: 14px;
+}
+#password1
+{
+    color: red;
+}
+span
+{
+    visibility: hidden;
+}
+.ps
+{
+    background-color: black;
+    font-size: 20px;
+    
+}
+#amount
+{
+    background-color: rgba(30,35,60,255);
+    border-style: none;
+    color: white;
+}
+#kk
+{
+  font-size: 15px;
+}

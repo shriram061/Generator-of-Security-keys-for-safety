@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passkey-Generator (For safety of your account).</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon1.png" />
+    
+</head>
+<body>
+    <header>
+        <div id="z">
+      <nav>
+          <h1><u>Password Generator</u></h1>
+      </nav>
+    </div>
+      </header>
+      <main>
+        <div id="range1"><form>
+            <br> <p id="password2">Your Generated Password is</p>
+           <div class="copy-text"> <textarea class="ps" id="password1">
+            
+           </textarea>
+        <!-- <input type="text" id="password4" > --></div>
+            <br>
+            <p id="password1">  <button type="button" id="buttonmain" onclick="cal1()">GENERATE PASSWORD</button><span>rr</span>
+                <button id="buttonmain" onclick="copyToClipBoard()">COPY</button>
+            </p>
+            <p id="password1">
+            <input
+            type="range"
+            list="tickmarks"
+            name="rangeInput"
+            min="4"
+            max="32"
+            id="keys"
+            value="0"
+            oninput="amount.value=rangeInput.value" 
+          />
+ <datalist id="tickmarks">
+<option value="4"></option>
+<option value="5"></option>
+<option value="6"></option>
+<option value="7"></option>
+<option value="8"></option>
+<option value="9"></option>
+<option value="10" ></option>
+<option value="11" ></option>
+<option value="12" ></option>
+<option value="13" ></option>
+<option value="14" ></option>
+<option value="15" ></option>
+<option value="16" ></option>
+<option value="17" ></option>
+<option value="18" ></option>
+<option value="19" ></option>
+<option value="20" ></option>
+<option value="21" ></option>
+<option value="22" ></option>
+<option value="23" ></option>
+<option value="24" ></option>
+<option value="25" ></option>
+<option value="26" ></option>
+<option value="27" ></option>
+<option value="28" ></option>
+<option value="29" ></option>
+<option value="30" ></option>
+<option value="31" ></option>
+<option value="32"></option>
+</datalist>
+</p>
+<p id="password1"><label>Slide the amount of character needed</p>   <br>
+    <p id="password2"><input type="button" onclick="cal1()" id="amount" for="rangeInput" size="5"></label>&#8644;Characters used.</p>
+    <br>
+</form>
+<br>
+</div>
+<hr>
+<div id="setting1"><br> <h3>Settings</h3>
+<div id="setting">
+        <br>
+        <p class="setting"><label for="cond1">Include UpperCase
+        <input type="checkbox" id="cond1" ></label></p>
+        <br>
+        <p class="setting"><label for="cond2">Include LowerCase
+        <input type="checkbox" id="cond2" ></label></p>
+            <br>
+        <p class="setting"><label for="cond3">Include Numbers
+                <input type="checkbox" id="cond3"></label></p>
+                <br>
+        <p class="setting"><label for="cond4">Include Symbol
+                    <input type="checkbox" id="cond4"></label></p>
+        <br>
+</div>
+</div>
+<div id="submit">
+    <br>
+</div>
+</main>
+<br>
+<footer>
+    <p id="password1">Project by Subashriram Kasirajan</p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
